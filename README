@@ -1,0 +1,31 @@
+# Music Guessing Game
+
+## Description
+
+A game for making a guessing game out of any Spotify playlist!
+
+Search for your favourite playlist, or browse based on your favourite artists, genres, and decades, and put your musical knowledge to the test.
+
+Test yourself or challenge your friends!
+
+## Screens
+
+<img src="./public/home-screenshot.png" height="320px" />
+<img src="./public/favourites-screenshot.png" height="320px" />
+<img src="./public/game-screenshot.png" height="320px" />
+<img src="./public/win-screenshot.png" height="320px" />
+<img src="./public/local-stats-screenshot.png" height="320px" />
+<img src="./public/global-stats-screenshot.png" height="320px" />
+
+## Tech
+
+The FE is powered by Svelte and SvelteKit, with SCSS and TypeScript.
+
+The FE is compiled with Vite.
+
+The BE is powered by Netlify
+Functions and MongoDB.
+
+Model validation is powered by [zod](https://www.npmjs.com/package/zod)
+
+The BE relies on [the public Spotify API](https://developer.spotify.com/documentation/web-api/) for playlist data.
